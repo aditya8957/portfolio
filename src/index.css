@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- THEME VARIABLES ---------- */
+
+:root {
+  --bg: #ffffff;        /* Light mode background */
+  --text: #000000;      /* Light mode text */
+  --card: #f4f4f7;      /* Light mode card */
+   --accent: #4ade80;    /* Purple */
+}
+
+.dark {
+  --bg: #050505;        /* Dark mode background */
+  --text: #ffffff;      /* Dark mode text */
+  --card: rgba(255, 255, 255, 0.05); /* Dark mode card */
+   --accent: #22c55e;
+}
+
+
+/* :root {
+  --accent: #4ade80;  
+}
+
+.dark {
+  --accent: #22c55e;   
+} */
+
+/* Apply theme globally */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Gradient animation (your earlier one) */
+@keyframes gradientMove {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientMove 12s ease infinite;
+}
