@@ -15,7 +15,7 @@ export default function App() {
   }, []);
 
   return (
-    // <div className="font-sans antialiased">
+
     <div className="relative font-sans antialiased bg-[#050505] overflow-hidden">
 
       <Navbar />
