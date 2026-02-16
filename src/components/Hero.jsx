@@ -125,7 +125,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1yr5KZLWIBj9yfvURlISk-7yIJAgV2iZI/view"
+            href="https://drive.google.com/file/d/1yE9Zhb4j-0bNCwulWqlvAe2eUAGlP_WB/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-emerald-600 hover:bg-emerald-700 rounded-xl flex items-center gap-2 font-medium"

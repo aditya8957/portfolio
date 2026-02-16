@@ -15,8 +15,7 @@ export default function Projects() {
         "Monaco Editor integration",
         "Multi-language code execution using Judge0 API",
         "Submission history with execution status, memory & time tracking",
-        "Redis caching for optimized performance",
-        "Responsive UI with animations using Framer Motion"
+        "Redis caching for optimized performance"
       ],
 
       techStack: [
@@ -31,7 +30,7 @@ export default function Projects() {
         "JWT",
         "Tailwind CSS"
       ],
-      github: "https://github.com/CodeArena",
+      github: "https://github.com/aditya8957/CodeArena",
       // demo: "#",
       image: "/images/codearna2.png", 
     },
